@@ -1,0 +1,22 @@
+body {
+    background: #ffffff;
+}
+
+h1 {
+    color: tomato;
+}
+h2 {
+    color: #1460aa;
+}
+
+p {
+    color: #232324;
+}
+.article {
+    background: #dddddd;
+    
+}
+.footer{
+
+    margin-top: 30px;
+}
