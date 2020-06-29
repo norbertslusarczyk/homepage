@@ -1,16 +1,24 @@
 body {
-    background: #b664b6;
+    background: #ffffff;
 }
 
-h1 {
-    color: tomato;
+.firstHeader {
+    color: #132D38;
 }
-h2 {
-    color: #1460aa;
+.secondHeader {
+    color: #204C5E;
+}
+
+.thirdHeader {
+    color: #2C6A85;
+}
+
+.link {
+    color: #26C872;
 }
 
 p {
-    color: #232324;
+    color: #060E12 ;
 }
 .article {
     background: #dddddd;
