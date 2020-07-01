@@ -2,8 +2,12 @@ body {
     background: #ffffff;
 }
 
+main{
+    padding-top: 40px;
+}
+
 .firstHeader {
-    color: #132D38;
+        color: #132D38;
 }
 .secondHeader {
     color: #204C5E;
@@ -17,7 +21,7 @@ body {
 }
 
 .link {
-    color: #26C872;
+    color: #ffffff;
 }
 
 .paragraph {
@@ -34,4 +38,46 @@ body {
 .footer{
 
     margin-top: 30px;
+}
+
+.about{
+    position: relative;
+}
+
+.box, .boxTest{
+    width: 100px;
+    height: 100px;
+    padding: 12px; 
+    color: rgb(1, 7, 7);
+    background-color: aqua;
+    border: rgb(42, 29, 218) 5px solid;
+    margin: 10px;
+    box-sizing: border-box; 
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    z-index: 2;
+
+}
+
+.boxTest{
+    top: 30px;
+    left: 55%;
+    z-index: 1;
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.navigation{
+    box-sizing: border-box;
+    background-color:  darkgray;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
 }
